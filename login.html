@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            /* justify-content: center; */
+            flex-direction: column;
+            align-items: center;
+            width: 19rem;
+            height: 15rem;
+            margin: auto;
+            border: 1px solid;
+            border-radius: 23px;
+            box-shadow: 1px 1px 9px -1px;
+        }
+
+        .input {
+            margin: 13px;
+            padding: 6px 0;
+        }
+
+        .btn {
+            padding: 4px;
+        }
+
+        .btn button {
+            padding: 2px 56px;
+            border-radius: 10px;
+            background: linear-gradient(to right, skyblue, darkblue);
+            color: white;
+        }
+
+        .email {
+            margin: 6px 0;
+            border: 0;
+            border-bottom: 1px solid;
+
+        }
+
+        .pass {
+            border: 0;
+            border-bottom: 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Login</h2>
+        </div>
+        <div class="input">
+            <label for="1">Email:</label><br />
+            <input type="email" class="email" id="1"><br>
+            <label for="2">Password:</label><br />
+            <input type="password" class="pass" id="2">
+
+        </div>
+        <div class="btn">
+            <button>Log In</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
